@@ -7,7 +7,8 @@ const startBtn = document.querySelector(".action") // button start selected
 startBtn.addEventListener("click", startGame);
 
 function startGame() {
-
+    
+     //   LOOP STARTS 
     for (let i = 1; i <= 100; i++) {
 
         // Create a div inside main container with a class of num-box 
@@ -20,7 +21,7 @@ function startGame() {
         divSpan.classList.add("num");
         divChild.append(divSpan);
  
-        //   LOOP STARTS 
+        //   Conditions apply
        if (i % 3 === 0 && i % 5 === 0) {
         divChild.classList.add("fizzbuzz");
         divSpan.append("FizzBuzz");

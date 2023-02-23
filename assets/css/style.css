@@ -26,12 +26,12 @@ header {
 .num-box {
     background-color: brown;
 }
-/********** MAIN CONTENT *********/
 
 header,
 .btn-ctn {
     text-align: center;
 }
+/********** MAIN CONTENT *********/
 
 .action {
     color: #fff;
@@ -45,7 +45,6 @@ header,
     cursor: pointer;
     transform: translateY(-8px);
 }
-
 
 .container {
     display: flex;

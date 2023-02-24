@@ -1,13 +1,13 @@
+'use strict';
+
 const divContainer = document.querySelector(".container")  // main container selected
 const startBtn = document.querySelector(".action") // button start selected
-
 
 // EVENT TO MAKE GAME APPEAR
 
 startBtn.addEventListener("click", startGame);
 
 function startGame() {
-    
      //   LOOP STARTS 
     for (let i = 1; i <= 100; i++) {
 
@@ -34,8 +34,7 @@ function startGame() {
        } else {
         divSpan.append(i);
        }
-     }
-    
+     } 
 }
 
 
